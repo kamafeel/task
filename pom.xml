@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oa</groupId>
+  <artifactId>auc</artifactId>
+  <version>${project.version}</version>
+  <packaging>pom</packaging>
+  <name>auc</name>
+  <description>调度系统</description>
+
+  <modules>
+    <module>dacp-task-parent</module>
+    <module>common</module>
+    <module>dacp-task-agent</module>
+    <module>dacp-task-common</module>
+    <module>dacp-task-context</module>
+    <module>dacp-task-dbpro</module>
+    <module>dacp-task-plugin</module>
+    <module>dacp-task-server</module>
+    <module>dacp-task-server-deploy</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.version>1.0</project.version>
+    <java.version>1.8</java.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+      <resource>
+        <directory>${basedir}/src/main/java</directory>
+        <includes>
+          <include>**/*.properties</include>
+          <include>**/*.xml</include>
+          <include>**/*.yml</include>
+          <include>**/*.tld</include>
+          <include>**/*.vm</include>
+          <include>**/*.lua</include>
+          <include>**/*.so</include>
+        </includes>
+        <filtering>false</filtering>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+
+</project>
