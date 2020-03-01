@@ -1,0 +1,1 @@
+ps -u dacp -o 'pid,comm,args,pcpu,rsz,vsz,stime,user,uid' --sort -pcpu,+pmem
