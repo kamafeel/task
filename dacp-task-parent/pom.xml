@@ -11,7 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sourceEncoding>UTF-8</sourceEncoding>
 		<dacp-task-version>3.0.0</dacp-task-version>
-		<spring.version>4.2.3.RELEASE</spring.version>
+		<spring.version>5.2.4.RELEASE</spring.version>
 		<logback.version>1.1.8</logback.version>
 		<freemarker.version>2.3.23</freemarker.version>
 		<commons.lang3.version>3.4</commons.lang3.version>
