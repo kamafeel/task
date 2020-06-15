@@ -23,7 +23,7 @@
 		<!-- <spring-rabbit.version>[1.5.2.RELEASE,)</spring-rabbit.version> -->
 		<spring-rabbit.version>1.7.4.RELEASE</spring-rabbit.version>
 		<jna.version>4.1.0</jna.version>
-		<commons-collections.version>3.2.1</commons-collections.version>
+		<commons-collections.version>3.2.2</commons-collections.version>
 		<jdbc.oracle.version>10.2.0.3.0</jdbc.oracle.version>
 		<disruptor.version>3.3.0</disruptor.version>
 		<jetty.version>9.2.15.v20160210</jetty.version>
