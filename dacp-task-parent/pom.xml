@@ -19,7 +19,7 @@
 		<jdbc.mysql.version>5.1.33</jdbc.mysql.version>
 		<quartz-version>2.2.1</quartz-version>
 		<zookeeper.version>3.4.10</zookeeper.version>
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<!-- <spring-rabbit.version>[1.5.2.RELEASE,)</spring-rabbit.version> -->
 		<spring-rabbit.version>1.7.4.RELEASE</spring-rabbit.version>
 		<jna.version>4.1.0</jna.version>
